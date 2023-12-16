@@ -3,7 +3,8 @@
 	"package": "gfz.functionalapparel.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"ApparelEquipAttackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
