@@ -15,6 +15,7 @@ public class ModItemGroups {
         new Identifier(FunctionalApparel.MOD_ID, "functionalapparel"),
         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.functionalapparel")).icon(() -> new ItemStack(ModItems.BLOODSOAKED_BOW)).entries((displayContext, entries) -> {
             entries.add(ModItems.BLOODSOAKED_BOW);
+            entries.add(ModItems.CRACKLING_HORNS);
         }).build());
 
     public static void registerItemGroups(){

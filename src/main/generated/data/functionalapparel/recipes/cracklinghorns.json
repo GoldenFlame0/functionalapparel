@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "pattern": [
+    "N N",
+    "N N",
+    " R "
+  ],
+  "result": {
+    "item": "functionalapparel:cracklinghorns"
+  },
+  "show_notification": true
+}

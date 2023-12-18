@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item BLOODSOAKED_BOW = registerItem("bloodsoakedbow", new BloodsoakedBow(new FabricItemSettings().maxCount(1)));
+    public static final Item CRACKLING_HORNS = registerItem("cracklinghorns", new CracklingHorns(new FabricItemSettings().maxCount(1)));
 
     private static Item registerItem(String name, Item item){
         var output = Registry.register(Registries.ITEM, new Identifier(FunctionalApparel.MOD_ID, name), item);

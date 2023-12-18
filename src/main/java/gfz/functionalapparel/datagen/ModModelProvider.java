@@ -20,5 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BLOODSOAKED_BOW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRACKLING_HORNS, Models.GENERATED);
     }
 }

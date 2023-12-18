@@ -32,5 +32,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('N', Items.NETHER_WART)
                 .criterion(hasItem(Items.NETHER_WART), conditionsFromItem(Items.NETHER_WART))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.BLOODSOAKED_BOW)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CRACKLING_HORNS, 1)
+                .pattern("N N")
+                .pattern("N N")
+                .pattern(" R ")
+                .input('R', Items.LIGHTNING_ROD)
+                .input('N', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.LIGHTNING_ROD), conditionsFromItem(Items.LIGHTNING_ROD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CRACKLING_HORNS)));
     }
 }
